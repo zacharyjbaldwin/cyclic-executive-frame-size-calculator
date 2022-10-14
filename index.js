@@ -37,7 +37,7 @@ module.exports.calculateFrameSize = (jobs, hyperperiod) => {
         console.log();
     }
 
-    console.log('Accpeted frame sizes:');
+    console.log('Accepted frame sizes:');
     console.log(acceptedFrameSizes);
     
 };
