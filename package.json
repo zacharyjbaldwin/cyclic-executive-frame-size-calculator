@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zacharyjbaldwin/cyclic-executive-frame-size-calculator/issues"
   },
-  "homepage": "https://github.com/zacharyjbaldwin/cyclic-executive-frame-size-calculator#readme"
+  "homepage": "https://github.com/zacharyjbaldwin/cyclic-executive-frame-size-calculator#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
