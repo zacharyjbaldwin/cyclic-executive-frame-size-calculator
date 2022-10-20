@@ -66,7 +66,7 @@ module.exports.calculateFrameSize = (jobs, hyperperiod) => {
     console.log(`Simply periodic? -> ${simplyPeriodic ? chalk.green('YES') : chalk.red('NO')}`);
 
     console.log(`\nSurely schedulable with EDF? -> ${utilization <= 1 ? chalk.green('YES') : chalk.red('NO')}`);
-    console.log(`Surely schedulable with RM? -> ${UrmGTU || simplyPeriodic ? chalk.green('YES') : chalk.red('NO')}`);
+    console.log(`Surely schedulable with RM? -> ${UrmGTU && simplyPeriodic ? chalk.green('YES') : chalk.red('NO')}`);
 
     
 };
